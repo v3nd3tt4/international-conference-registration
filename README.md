@@ -1,4 +1,4 @@
-# icgc2
+# International Conference Registration
 aplikasi pendaftaran konferensi internasional
 
 ## Persiapan
