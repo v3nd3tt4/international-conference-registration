@@ -106,8 +106,6 @@ class Admin extends CI_Controller {
         );
 
         $msg = 'We are pleased to inform you that your abstract has been reviewed and '.$this->input->post('status_absnya', true).'. Please, download your letter of acceptance <a href="">here</a>. Please check your SEAAN account <a href="'.base_url().'">here</a>';
-
-        // $kirim_email = $this->rest->send_request('http://sso.itera.ac.id/mails', 'POST', array('to' => $cek_status->row()->email, 'subject' => 'Paper review', 'message' => $msg));
         $this->send($cek_status->row()->email, $msg, 'ICGC Paper review');
 
    //      if($kirim_email === false){
@@ -145,7 +143,7 @@ class Admin extends CI_Controller {
         $config['smtp_host'] = "ssl://smtp.gmail.com";
         $config['smtp_port'] = "465";
         $config['smtp_user'] = "icgc.abkinpdlampung@gmail.com";
-        $config['smtp_pass'] = "icgc123456";
+        $config['smtp_pass'] = "";
         $config['charset'] = "utf-8";
         $config['mailtype'] = "html";
         $config['newline'] = "\r\n";

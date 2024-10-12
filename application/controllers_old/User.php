@@ -337,8 +337,6 @@ class User extends CI_Controller {
 
         $msg = '<a href="'.base_url().'admin/detail_pendaftar/'.$cek_status->row()->id_pendaftar.'">'.$cek_status->row()->nama_pendaftar.'</a> telah mengupload paper yang direvisi';
 
-        // $kirim_email = $this->rest->send_request('http://sso.itera.ac.id/mails', 'POST', array('to' => 'seaan2018@itera.ac.id', 'subject' => 'Paper telah direvisi', 'message' => $msg));
-
         $this->send('icgc.abkinpdlampung@gmail.com', $msg, 'Paper telah direvisi');
 
         if($kirim_email === false){

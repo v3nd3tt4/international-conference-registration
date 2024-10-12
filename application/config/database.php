@@ -75,14 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	// 'database' => 'abkinpdl_icgc',
-	// 'hostname' => 'localhost',
-	// 'username' => 'abkinpdl_vendetta',
-	// 'password' => 'goldroger27',
-	'database' => 'regseaan',
+	'database' => 'db_icgc',
 	'hostname' => '127.0.0.1',
 	'username' => 'root',
-	'password' => 'goldroger27',
+	'password' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

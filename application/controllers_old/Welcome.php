@@ -102,8 +102,6 @@ class Welcome extends CI_Controller {
 			if($simpan){
 				$message = 'Thanks for registration, This is your ICGC account & please complete your profile<br/>Username: '.$this->input->post('email', true).'<br/>password: '.$this->input->post('tgl_lahir', true).'<br/>login <a href="'.base_url().'">here</a>';
 				$this->send($this->input->post('email', true), $message, 'ICGC account');
-				
-				// $this->rest->send_request('http://sso.itera.ac.id/mails', 'POST', array('to' => $this->input->post('email', true), 'subject' => 'Username dan Password', 'message' => $message));
 				$return = array(
 					'status' => 'success',
 					'text' => '<div class="alert alert-success"><a href="#" class="close" data-dismiss="alert" arial-label="close">&times;</a><i class="fa fa-check" aria-hidden="true"></i>success, please check your email  !</div>'
@@ -185,7 +183,7 @@ class Welcome extends CI_Controller {
         //     'protocol'  => 'smtp',
         //     'smtp_host' => 'smtp.gmail.com',
         //     'smtp_user' => 'icgc.abkinpdlampung@gmail.com',  // Email gmail
-        //     'smtp_pass'   => 'icgc123456',  // Password gmail
+        //     'smtp_pass'   => '',  // Password gmail
         //     'smtp_crypto' => 'ssl',
         //     'smtp_port'   => 465,
         //     'crlf'    => "\r\n",

@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/dataTable/media/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/dataTable/media/css/jquery.dataTables.min.css">
-    <!-- <link rel="shortcut icon" href="<?=base_url()?>assets/logo%20itera%20oke.png">     -->
     <script src="<?=base_url()?>assets/dataTable/media/js/jquery.dataTables.min.js"></script>    
     <style type="text/css">
       .circular--portrait {
@@ -47,30 +46,6 @@
             <br>
             <h3>ICGC</h3>
             <p><em>"International Conference Guidance Counseling"</em></p> 
-            <!-- <form role="search" id="searchform" class="searchform " action="#" method="get">
-                <input type="text" class="text-cari " name="s" placeholder="keyword.." />
-                <button type="submit" class=" button-cari " id="searchsubmit">Cari</button>
-            </form>
-            <p class="text-right" >
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <a href="https://twitter.com/itera_PTN" style="color: #000;" ><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></a>
-            </span>&nbsp;&nbsp;&nbsp;
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <a href="https://www.facebook.com/itera.official/" style="color: #000;"><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a>
-            </span>&nbsp;&nbsp;&nbsp;
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <a href="https://www.instagram.com/iteraofficial/" style="color: #000;"><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></a>
-            </span>&nbsp;&nbsp;&nbsp;
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <a href="https://www.youtube.com/results?search_query=itera" style="color: #000;"><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></a>
-            </span>&nbsp;&nbsp;&nbsp;
-            
-            
-            </p> -->
         </div>
       </div>
     </div>
