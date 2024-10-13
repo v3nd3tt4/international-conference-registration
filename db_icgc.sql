@@ -2,7 +2,8 @@
 SQLyog Ultimate v10.3 
 MySQL - 8.0.30 : Database - db_icgc
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -95,7 +96,6 @@ CREATE TABLE `tb_pendaftar` (
 
 /*Data for the table `tb_pendaftar` */
 
-insert  into `tb_pendaftar`(`id_pendaftar`,`nama_pendaftar`,`id_negara`,`nama_negara`,`jenis_kelamin`,`tgl_lahir`,`affiliation`,`no_hp`,`email`,`id_jenis_peserta`,`no_reg`,`paper`,`photo`,`abstract`,`full_paper`,`tittle`,`abstract_text`,`id_topics`,`keyword_abstract`,`status_verifikasi`,`komentar`,`file_revisi`,`file_after_revisi`,`join_excursion`,`bukti_bayar`) values (1,'okta pilopa',5,'Thailand',NULL,'2018-01-01','vendetta','085768551713','pilopaokta@gmail.com','SOC','','Yes',NULL,'201801191126241.docx',NULL,'test aja','<p>xdvfgbhn fvgbn</p>\r\n',2,NULL,'Major Revision',NULL,'201801161044531.pdf','201801161134571.pdf',NULL,NULL),(2,'Wawan dharmantyo',1,'Indonesian',NULL,'2015-09-17','ITERA','0866688996778','wsphidjo@gmail.com','Business Meeting',NULL,'Yes','201801181630161.jpg',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(3,'sdfg',2,'Philippines','Male','2018-01-19','dcvfgbhn','09876543','oktapilopa27@gmail.com','Business Meeting',NULL,'Yes','201801191127551.jpg',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(4,'asd',3,'Malaysia','Female','2018-01-03','itera','081379236936','heri@gmail.com','Regular',NULL,'Yes','201801191128251.png',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(5,'asd',1,'Indonesian','Male','2018-01-23','itera','081379236936','heri@it.ac.id','Business Meeting',NULL,'Yes','201801240909111.png',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(7,'Test user',2,'Philippines','Male','2018-02-22','ITERA','085768551713','okta.pilopa@staff.itera.ac.id','Regular',NULL,'Yes','201802221530001.jpg',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Yes','201802221620591.pdf');
 
 /*Table structure for table `tb_ref_negara` */
 
